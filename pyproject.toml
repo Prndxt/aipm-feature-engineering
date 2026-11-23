@@ -1,0 +1,15 @@
+[project]
+name = "aipm-feature-engineering"
+version = "0.1.0"
+description = "Feature-engineering exercises for AI Product Managers (penguins, snowmen and the BeanBox case)"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10",
+    "pandas>=2.2",
+    "scikit-learn>=1.9.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+]
